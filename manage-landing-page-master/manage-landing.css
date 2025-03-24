@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header img{
+  margin-top: 80px;
+  margin-left: 150px;
+  margin-bottom:-10px;
+}
+header div{
+ display:inline-block;
+ padding:30px;
+}
+header div a{
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+header div div {
+	float:right;
+	margin-left:400px;
+	margin-top:-20px;
+	position:absolute;
+} 
+.get{
+  background: red;
+  
+  height: 45px;
+  padding: 15px;
+  border-radius: 30px;
+  color: white;
+}
+/*#container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+#container div{
+  margin-left: 150px;
+  font-size: 30px;
+  font-family: arial;
+}
+.tablet{
+  float: right;
+  margin-top: -150px;
+}*/

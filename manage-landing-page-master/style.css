@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Be Vietnam Pro", sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    background-image: url("images/bg-tablet-pattern.svg");
+    background-position: 500px 20px;
+    background-repeat: no-repeat;
+    /* z-index: inherit; */
+}
+
+.flex{
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.manage{
+    margin: 3% 7%;
+}
+
+.button{
+    padding: 10px 25px ;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+
+.About{
+    width: 100%;
+}
+
+.Track button{
+    padding: 0px 10px;
+    background-color:  hsl(12, 88%, 59%);
+    color:hsl(13, 100%, 96%);
+    border: none;
+    border-radius: 10px;
+}
+
+.Our-software h1{
+   font-size: 2.5rem;
+}
+
+.Our-software p{
+    font-size: 0.9rem;
+    width:60%;
+    margin-top: 20px;
+}
+.Track{
+    max-width: 500px;
+}
+
+ h4, h1{
+    color:hsl(228, 52%, 69%)
+ }
+
+.collaborate{
+    margin-top: 4%;
+}
+
+.Bring{
+    margin-top: 6%;
+}
+
+.collaborate h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.collaborate p{
+    font-weight: 100;
+    margin-bottom: 20px;
+    width: 65%;
+    color:hsl(227, 12%, 61%);
+}
+
+#company p {
+    font-size: 1.1rem;
+}
+
+.About p{
+    color:hsl(227, 12%, 61%)
+}
+
+#Testimonies{
+    text-align: center;
+    background-color: hsl(227, 12%, 61%);
+    background-color:hsl(0, 0%, 98%);
+    margin: 40px 0px;
+}  
+
+#Testimonies img{
+    width: 12%; 
+    position: relative; 
+    bottom: 20px; 
+}
+  
+
+#Testimonies p{
+    font-size: 0.8rem;
+    padding: 20px;
+}
+
+#Testimonies > div{
+    /* margin: 20px; */
+
+}
+#super{
+    margin: 50px;
+}
+
+#Simplify{
+    background-color: hsl(12, 88%, 59%);
+    padding: 30px;
+    margin: 40px 0px 0px 0px;
+}
+
+.what{
+    text-align: center;
+    /* margin: auto; */
+}
+
+.start{
+   
+}
+
+#Simplify h1{
+    color:#fff;
+    font-size: 1.9rem;
+}
+
+#Simplify button{
+    padding: 10px;
+    background-color: #fff;
+    color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 20px;
+   
+}
+
+footer{
+    background-color:  hsl(233, 12%, 13%);
+    padding: 30px;
+}
